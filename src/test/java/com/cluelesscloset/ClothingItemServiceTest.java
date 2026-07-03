@@ -1,5 +1,4 @@
 package com.cluelesscloset;
-
 import com.cluelesscloset.ClothingItemDTO;
 import com.cluelesscloset.ResourceNotFoundException;
 import com.cluelesscloset.UnauthorizedException;
@@ -16,11 +15,9 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.List;
 import java.util.Optional;
-
 import static org.assertj.core.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
-
 @ExtendWith(MockitoExtension.class)
 class ClothingItemServiceTest {
 
