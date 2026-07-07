@@ -1,0 +1,23 @@
+ 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #fdf6f0;
+    color: #1a1a1a;
+  }
+}
+:root {
+  --bg: #FFF8F4;
+  --surface: #FFFFFF;
+  --pink: #FF4F9A;
+  --yellow: #FFD84D;
+  --purple: #CFA7FF;
+
+  --text: #2A2333;
+  --subtext: #7E758A;
+
+  --radius: 24px;
+}
